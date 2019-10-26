@@ -290,7 +290,8 @@ int main(void)
 	tx_data_frame[MODULE_TYPE] = MODULE_TYPE_VAL;
 	tx_data_frame[BOOT_MODE] = 0x00;
 	REG_Load(0xFFFFFFFF);
-	
+	//TUTAJ DODAJE NOWY KOMENTARZ//
+	//TUTAJ KOLEJNY KOMENTARZ//
 	sei();
 	/////////////////////////////////////////////////////////////////
 	// G£ÓWNA PÊTLA PROGRAMU
@@ -299,7 +300,6 @@ int main(void)
 	{
 		uint16_t temp = 0;
 		uint64_t temp_sum = 0;
-		uint8_t lala = 0;
 		
 		if(mask_dev){
 			flag_time_probe = 0;
