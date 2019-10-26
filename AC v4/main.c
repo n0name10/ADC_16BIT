@@ -292,6 +292,7 @@ int main(void)
 	REG_Load(0xFFFFFFFF);
 	//TUTAJ DODAJE NOWY KOMENTARZ//
 	//TUTAJ KOLEJNY KOMENTARZ//
+	//Komentarz po raz trzeci//
 	sei();
 	/////////////////////////////////////////////////////////////////
 	// G£ÓWNA PÊTLA PROGRAMU
