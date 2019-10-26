@@ -299,6 +299,7 @@ int main(void)
 	{
 		uint16_t temp = 0;
 		uint64_t temp_sum = 0;
+		uint8_t lala = 0;
 		
 		if(mask_dev){
 			flag_time_probe = 0;
