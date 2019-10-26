@@ -2279,7 +2279,7 @@ Disassembly of section .text:
     1278:	ad 9a       	sbi	0x15, 5	; 21
     127a:	ae 98       	cbi	0x15, 6	; 21
     127c:	90 c0       	rjmp	.+288    	; 0x139e <main+0x21a>
-    127e:	10 92 60 00 	sts	0x0060, r1	; 0x800060 <__data_start>
+    127e:	10 92 60 00 	sts	0x0060, r1	; 0x800060 <__DATA_REGION_ORIGIN__>
     1282:	64 e5       	ldi	r22, 0x54	; 84
     1284:	72 e0       	ldi	r23, 0x02	; 2
     1286:	7a 8b       	std	Y+18, r23	; 0x12
@@ -2310,7 +2310,7 @@ Disassembly of section .text:
     12bc:	89 2b       	or	r24, r25
     12be:	09 f4       	brne	.+2      	; 0x12c2 <main+0x13e>
     12c0:	54 c0       	rjmp	.+168    	; 0x136a <main+0x1e6>
-    12c2:	f4 e1       	ldi	r31, 0x14	; 20
+    12c2:	f0 e1       	ldi	r31, 0x10	; 16
     12c4:	7f 2e       	mov	r7, r31
     12c6:	a1 2c       	mov	r10, r1
     12c8:	b1 2c       	mov	r11, r1

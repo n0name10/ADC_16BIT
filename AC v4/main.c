@@ -305,7 +305,7 @@ int main(void)
 			for(uint8_t i = 0; i<16 ; i++){
 				if(mask_dev & (1<<i)){
 					temp_sum = 0;
-					for(uint8_t j = 0;j<;j++){
+					for(uint8_t j = 0;j<16;j++){
 						temp = Get_ADC_Val(i,REFERENCE_TYPE);
 						temp_sum = temp_sum + temp;
 						if(temp > max_ADC_table[i]) max_ADC_table[i] = temp;
